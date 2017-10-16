@@ -21,4 +21,4 @@ seahawksRecord$won <- seahawksRecord$diff > 0
 opponents <- c("Green Bay", "San Francisco", "Tennessee", "Indianapolis", "LA Rams")
 
 # Add the vector of opponents into the data frame
-seahawksRecord$opponents <- opponents
+rownames(seahawksRecord) <- opponents
